@@ -18,3 +18,10 @@ def drop_db
     DB.execute("DROP TABLE #{table}")
   end
 end
+
+# # CONNECTION TO DB
+# ActiveRecord::Base.establish_connection(
+#   :adapter => "sqlite3",
+#   :database => db/migrate/school-development
+
+# # )
